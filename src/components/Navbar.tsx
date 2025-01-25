@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
-import { IoLinkSharp, IoSearch } from "react-icons/io5";
+import { IoSearch } from "react-icons/io5";
 import { ShoppingBagIcon } from "@heroicons/react/24/outline";
 
 import { Bars3Icon } from "@heroicons/react/24/outline";
