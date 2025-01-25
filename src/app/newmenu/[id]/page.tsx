@@ -953,7 +953,7 @@ import Nav2 from "@/components/Nav2";
 
 // Create an image URL builder instance
 const builder = imageUrlBuilder({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "krp11thn",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "nhvsmkfb",
   dataset: "production",
 });
 
