@@ -154,7 +154,7 @@ import Nav2 from "@/components/Nav2";
 
 // Create an image URL builder instance
 const builder = imageUrlBuilder({
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "krp11thn",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "nhvsmkfb",
   dataset: "production",
 });
 
@@ -186,9 +186,10 @@ type Chef = {
   available: boolean;
 };
 
-// Define DetailPageProps with correct typing
+// Update the DetailPageProps interface
 interface DetailPageProps {
-  params: { id: string };  // Ensure this is typed as a plain object, not a Promise
+  params: Promise<{ id: string }>
+  searchParams?: Promise<any>
 }
 
 // This function fetches the static params for the dynamic route
@@ -202,7 +203,7 @@ export async function generateStaticParams() {
 }
 
 export default async function DetailPage({ params }: DetailPageProps) {
-  const { id } = params;
+  const { id } = await params;  // Note the await here
 
   // Fetch product and chef data
   const productResponse = await sanityFetch({ query: foodQuery });
