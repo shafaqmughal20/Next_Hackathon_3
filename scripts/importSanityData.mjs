@@ -1,5 +1,5 @@
-// the data of api is coming from that server Apis object
 
+// kl;lfjsjlkjslkjflksdjlkjfskljlksfjlksfjlkjklsfdjklsdf
 
 import { createClient } from '@sanity/client';
 import axios from 'axios';
