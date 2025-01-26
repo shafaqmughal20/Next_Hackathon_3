@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 interface Props {
   heading:string,
-  url1: string,
+  url1: string,//hashkjaskjhasjhajhjahadjaskasjaskhasdjjas
   url2:string
 }
 
