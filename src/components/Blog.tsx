@@ -2,7 +2,7 @@ import Image from "next/image";
 import { IoSearch } from "react-icons/io5";
 import {
   FaFacebookF,
-  FaInstagram,//kjahsjkasdhasjkhjadjadhsjdashadshajshasdkj
+  FaInstagram,
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
