@@ -1,3 +1,6 @@
+// the data of api is coming from that server Apis object
+
+
 import { createClient } from '@sanity/client';
 import axios from 'axios';
 import dotenv from 'dotenv';
