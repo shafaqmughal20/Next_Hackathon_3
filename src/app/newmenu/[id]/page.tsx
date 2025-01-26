@@ -1,4 +1,3 @@
-
 import Footer from "@/app/Footer/Footer";
 import { sanityFetch } from "@/sanity/lib/live";
 import { foodQuery, chefQuery } from "@/sanity/lib/queries";
@@ -39,8 +38,9 @@ type Chef = {
   available: boolean;
 };
 
-export default async function DetailPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default async function DetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
+  const { id } = resolvedParams;
 
   // Fetch products and chefs
   const productResponse = await sanityFetch({ query: foodQuery });
