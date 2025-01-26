@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-//kjhkashkjasdhjahsdjkasdhjkhdasjkhaskjahjasdjkahsdjads
+
 export default function HeroMenu() {
   return (
     <section className='w-full bg-[url("/Hero/image.png")] bg-cover bg-no-repeat bg-center py-12 sm:py-16 md:pb-20 lg:py-24 xl:py-28'>
