@@ -9,7 +9,7 @@ const FoodSection = () => {
         {/* Image 1 */}
         <div className="relative w-full h-[250px]">
           <Image
-            src="/aboutus.png" // Replace with actual image
+            src="/Menu/aboutus.png" // Replace with actual image
             alt="Food 1"
             layout="fill"
             objectFit="cover"
@@ -19,7 +19,7 @@ const FoodSection = () => {
         {/* Image 2 */}
         <div className="relative w-full h-[250px]">
           <Image
-            src="/about3.png" // Replace with actual image
+            src="/Hero/about3.png" // Replace with actual image
             alt="Food 2"
             layout="fill"
             objectFit="cover"
@@ -29,7 +29,7 @@ const FoodSection = () => {
         {/* Image 3 */}
         <div className="relative col-span-2 w-full h-[250px]">
           <Image
-            src="/about4.png" // Replace with actual image
+            src="/MenuCard/about4.png" // Replace with actual image
             alt="Food 3"
             layout="fill"
             objectFit="cover"
